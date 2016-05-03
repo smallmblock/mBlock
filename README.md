@@ -5,6 +5,14 @@ mBlock add some hardware-related blocks in the original Scratch, with these bloc
 
 Besides blocks for the basic microcontroller functionalities, analog and digital writes and reads, PWM outputs. There are also blocks for each specific electronic modules, such as ultrasonic sensor, temperature sensor, light sensor, DC motor driver, stepper driver, etc. With these blocks, it’s simple to interact with many kinds of electronic modules.
 
+
+How to compile it ?
+1.install flash builder 4.7 
+2.git clone this project  or download zip file
+3.open flash builder 4.7 and start a new as 3.0 project named "mBlock"
+4.config ane and swc library for this project
+5.copy dll file to debug path
+6.In orginal  mblock-officeal project ,serial can't work,but this project already fix this bug.
 #Installer
 Windows : [Download](http://makeblock.sinaapp.com/mblock/installer_win.php)
 
